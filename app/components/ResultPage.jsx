@@ -73,7 +73,7 @@ console.log(ClassAttendanceStatics[0])
                 {index===0 ? <div className="ml-4 flex indent-10 justify-center align-middle bg-white w-80 pl-8"><div>1</div><div>2</div><div>3</div><div>4</div></div>:""}
    <div className="flex gap-x-5 ml-4 m-2 bg-white w-80 align-middle justify-center">
 
-   <div>{item["ClassAttendance::Date"].substr(0,5)}:</div>
+   <div>{item["ClassAttendance::Date"].substr(0,5)}({item["ClassAttendance::C_DayName"]}):</div>
    <div className={item["ClassAttendance::status_1"].includes("欠") ? "text-red-600" : item["ClassAttendance::status_1"]==="遅刻" ? "text-yellow-400" : ""}>
     {item["ClassAttendance::status_1"]}</div> 
    <div className={item["ClassAttendance::status_2"].includes("欠")  ? "text-red-600" : item["ClassAttendance::status_2"]==="遅刻" ? "text-yellow-400" : ""}>{item["ClassAttendance::status_2"]} </div> 
