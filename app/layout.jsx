@@ -10,7 +10,7 @@ export const metadata = {
 const MainLayout = ({ children }) => {
 	return (
 		<html lang='ja'>
-			<body className='flex flex-col w-screen min-h-screen bg-blue-200'>
+			<body className='flex flex-col w-screen min-h-screen bg-blue-200 items-center'>
 				<Header />
 				<main>{children}</main>
 				<Footer />
