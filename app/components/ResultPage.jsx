@@ -26,7 +26,7 @@ console.log(ClassAttendanceStatics[0])
   return (
 <div className='w-96 bg-blue-200'>
     <p className='m-4 indent-3'>
-        あなたの登録情報、出席率を確認してください。登録情報が間違っていたり、在留カードの更新、アルバイト先の変更、住所の変更などがあった場合は速やかに事務室までご連絡ください。   
+        あなたの登録情報、出席状況を確認してください。登録情報が間違っていたり、在留カードの更新、アルバイト先の変更、住所の変更などがあった場合は速やかに事務室までご連絡ください。アプリ上の出席率の数字はあくまでも参考値で、出席率証明書に記載のある数字が正式な出席率となりますのでご注意ください。
     </p>
 <div className="flex justify-center items-center">
 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"><a href="mailto:info-wy@wayonihongo.com">事務局へメール</a></button>
