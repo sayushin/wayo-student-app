@@ -10,6 +10,9 @@ export const metadata = {
 const MainLayout = ({ children }) => {
 	return (
 		<html lang='ja'>
+			 <head>
+                <link rel="apple-touch-icon" href="/wayologosquare.png"/>
+            </head>
 			<body className='flex flex-col w-screen min-h-screen bg-blue-200 items-center'>
 				<Header />
 				<main>{children}</main>
